@@ -135,13 +135,17 @@ h4{
 }
 
 .aanbieding img{
-	width: 100%;
-	height: 100%;
+	width: auto;
+	height: 250px;
 	border: 1px #303030 solid;
 }
 
 .aanbieding h3{
 	margin-top: 0px;
+}
+
+.aanbieding p{
+	margin-top: 10px;
 }
 
 .btn-aanbieding{
