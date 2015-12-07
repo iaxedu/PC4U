@@ -231,10 +231,17 @@ h4{
 	width: 63%; 
 }
 
+.product-info td {
+	padding: 1px;
+}
+
 .product-info p {
+	text-align: right;
 	float: right;
 	margin: 10px 40px 10px 10px;
+	width: 100%;
 }
+
 
 .product-info tr:nth-child(odd) {
 	background: #EBEBEB
