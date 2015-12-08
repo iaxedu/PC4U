@@ -176,6 +176,43 @@ h4{
 	margin: 10px;
 }
 
+/* CONTACT */
+
+.contact{
+	width: 30%;
+	height: auto;
+	margin-left: 3.33%;
+	margin-bottom: 3%;
+	float: left;
+}
+
+.contact h3{
+	text-align: left;
+}
+
+.contact textarea{
+	resize: none;
+}
+
+.contact td{
+	padding: 1px;
+}
+
+.contact td:last-of-type{
+	text-align: left;
+}
+
+.contact input[type="submit"]{
+	padding: 5px;
+	background-color: #232323;
+	color: #f7f6f6;
+	border: none;
+	transition: background-color 0.5s ease-in-out;
+}
+
+.contact input[type="submit"]:hover{
+	background-color: #A80000;
+}
 /* PRODUCT LIJST */
 
 .product {
