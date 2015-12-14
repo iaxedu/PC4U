@@ -317,6 +317,33 @@ h4{
 	background-color: #A80000;
 }
 
+/* Reparatie */
+
+.content-reparatie {
+	width: 40%;
+	float: left;
+	margin-left: 30%;
+}
+
+.content-reparatie img {
+	margin: auto;
+	display: block;
+}
+
+.reparatie {
+	width: 50%;
+	height: auto;
+	float: right;
+}
+
+.reparatie p, h2 {
+	text-align: center;
+	width: 70%;
+	margin: auto;
+}
+
+
+
 /* Openingstijden */
 
 #openingstijden{
