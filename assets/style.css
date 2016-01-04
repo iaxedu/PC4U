@@ -6,8 +6,12 @@
 
 body{
 	background-color: #f7f6f6;
+<<<<<<< HEAD
 	font-family: 'Open Sans', sans-serif;
 	color: #303030;
+=======
+	
+>>>>>>> origin/master
 }
 
 h1, h3, h4, h5, h6{
@@ -129,6 +133,7 @@ h4{
 .content-product{
 	width: 55%;
 	float: left;
+	overflow: hidden;
 }
 
 .content-product p{
@@ -138,10 +143,12 @@ h4{
 
 .aanbieding{
 	width: 30%;
-	height: auto;
+	height: 530px;
 	float: left;
 	margin-left: 3.33%;
 	margin-bottom: 3%;
+	position: relative;
+	overflow: hidden;
 }
 
 .aanbieding img{
@@ -156,6 +163,12 @@ h4{
 
 .aanbieding p{
 	margin-top: 10px;
+}
+
+.prijs-box{
+	position: absolute;
+	bottom: 0;
+	right: 0;
 }
 
 .btn-aanbieding{
