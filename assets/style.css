@@ -184,6 +184,8 @@ h4{
 	color: #A80000;
 	font-size: 24px;
 	float: right;
+	text-align: right;
+	margin-left: 5px;
 }
 
 .oude-prijs{
