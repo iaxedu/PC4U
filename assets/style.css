@@ -183,6 +183,7 @@ h4{
 .prijs{
 	color: #A80000;
 	font-size: 24px;
+	float: right;
 }
 
 .oude-prijs{
@@ -338,12 +339,13 @@ h4{
 }
 
 .btn-bekijk{
-	padding: 5px;
+	text-decoration: none;
+	padding: 8px;
 	background-color: #303030;
 	color: #f7f6f6;
-	text-decoration: none;
 	transition: background-color 0.5s;
 	float: right;
+	margin-top: 5px;
 }
 
 .btn-bekijk:hover{
