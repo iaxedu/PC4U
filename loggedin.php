@@ -25,11 +25,16 @@
 		<?php
 			if(isset($_POST['btnLogin'])){
 				$username = $_POST['txtUsername'];
-				$password = $_POST['txtPassword'];
-				echo "<h1>Ingelogd</h1>";
-				echo "<p>U ben succesvol ingelogd met de volgende gegevens:</p>";
-				echo "<p>Gebruikersnaam: $username<br>";
-				echo "Wachtwoord: $password</p>";
+				$password = sha1($_POST['txtPassword']);
+				if(empty($username) || empty($password)){
+					echo "<h1>Ingelogd</h1>";
+					echo "<p>U ben succesvol ingelogd met de volgende gegevens:</p>";
+					echo "<p>Gebruikersnaam: $username<br>";
+					echo "Wachtwoord: $password</p>";
+				}
+				else{
+					header("Location: login.php");
+				}
 			}
 			else{
 				header("Location: login.php");
