@@ -64,7 +64,7 @@ h4{
 }
 
 .nav li:last-child{
-	margin-right: 0px; 
+	margin-right: 0px;
 }
 
 .nav li a{
@@ -312,7 +312,7 @@ h4{
 	float: top;
 	margin: 10px;
 	margin-right: 50px;
-	width: 63%; 
+	width: 63%;
 }
 
 .product-info td {
@@ -553,25 +553,25 @@ h4{
 #gallery a {
    text-decoration:none;
    }
- 
+
 #gallery .item {
    width: 300px; height: 250px;
    float: left;
    }
- 
+
 #gallery .item a {
     overflow: hidden;
    }
- 
+
 #gallery .item a img {
    height: 100%;
    align-self: center;
    }
- 
+
 .lightbox {
    /** Hide the lightbox */
    opacity: 0;
- 
+
    /** Apply basic lightbox styling */
    position: fixed;
    z-index: 9999;
@@ -585,14 +585,14 @@ h4{
    -o-transition: opacity .5s ease-in-out;
    transition: opacity .5s ease-in-out;
    }
- 
+
 .lightbox:target {
     /** Show lightbox when it is target */
    opacity: 1;
    outline: none;
    top: 0;
 }
- 
+
 .lightbox .box {
    width: -webkit-min-content;
    width: -moz-min-content;
@@ -603,19 +603,19 @@ h4{
    background-color:#FFF;
    box-shadow: 0px 1px 26px -3px #777777;
    }
- 
+
 .lightbox .title {
    margin:0;
    padding:0 0 10px 0px;
    border-bottom:1px #ccc solid;
    font-size:22px;
    }
- 
+
 .lightbox .imgcontent {
    display:block;
    position:relative;
    }
- 
+
 .lightbox .close {
    display:block;
    float:right;
@@ -624,8 +624,39 @@ h4{
    font-size:22px;
    color:#858585;
    }
- 
+
 .clear {
    display:block;
    clear:both;
-   }
+  }
+
+.login{
+	text-align: center;
+}
+
+.form-group{
+	  text-align: left;
+	  margin-bottom: 10px;
+	  display: flex;
+		justify-content: center;
+}
+
+.form-group label{
+	  width: 150px;
+}
+
+.form-group input{
+	  padding: 5px;
+}
+
+.login input[type="submit"]{
+	padding: 5px 15px 5px 15px;
+	background-color: #232323;
+	color: #f7f6f6;
+	border: none;
+	transition: background-color 0.5s ease-in-out;
+}
+
+.login input[type="submit"]:hover{
+	background-color: #A80000;
+}
