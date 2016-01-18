@@ -638,13 +638,20 @@ h4{
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
-	justify-content: center;
+
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+
+	-ms-align-items: center;
+	align-items: center;
 	}
 
 .register-form {
 		 width: 960px;
-		 -ms-align-items: center;
-		 align-items: center;
+		 display: flex;
 
 	 }
 
@@ -652,11 +659,14 @@ h4{
 		 width: 50%;
 		 min-height: 200px;
 		 text-align: center;
+
 }
 
 .register-form-right {
 		 width: 50%;
 		 min-height: 200px;
+
+
 }
 
 .login{
