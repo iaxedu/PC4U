@@ -22,7 +22,20 @@
 		</ul>
 	</div>
 	<div class="content">
-		<h1>Login</h1>
+		<?php
+			if(isset($_POST['btnLogin'])){
+				$username = $_POST['txtUsername'];
+				$password = $_POST['txtPassword'];
+				echo "<h1>Ingelogd</h1>";
+				echo "<p>U ben succesvol ingelogd met de volgende gegevens:</p>";
+				echo "<p>Gebruikersnaam: $username<br>";
+				echo "Wachtwoord: $password</p>";
+			}
+			else{
+				header("Location: login.php");
+			}
+		?>
+
 		<form class="login" action="loggedin.php" method="POST">
       <div class="form-group">
 		    <label for="txtUsername">Gebruikersnaam: </label>
