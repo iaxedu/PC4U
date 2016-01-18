@@ -35,18 +35,6 @@
 				header("Location: login.php");
 			}
 		?>
-
-		<form class="login" action="loggedin.php" method="POST">
-      <div class="form-group">
-		    <label for="txtUsername">Gebruikersnaam: </label>
-        <input type="text" name="txtUsername">
-      </div>
-      <div class="form-group">
-		    <label for="txtPassword">Wachtwoord: </label>
-        <input type="password" name="txtPassword">
-      </div>
-      <input type="submit" name="btnLogin" value="Log in">
-		</form>
 	</div>
 	<div class="openingstijden">
 		<h3>Openingstijden</h3>
