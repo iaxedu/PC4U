@@ -23,6 +23,9 @@
 	</div>
 	<div class="content">
 		<h1>Login</h1>
+		<?php if($_GET['error'] == 1){
+			echo "<p> Vul alle velden in</p>";
+		}
 		<form class="login" action="loggedin.php" method="POST">
       <div class="form-group">
 		    <label for="txtUsername">Gebruikersnaam: </label>

@@ -33,7 +33,7 @@
 					echo "Wachtwoord: $password</p>";
 				}
 				else{
-					header("Location: login.php");
+					header("Location: login.php?error=1");
 				}
 			}
 			else{
