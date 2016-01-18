@@ -647,14 +647,45 @@ h4{
 		 align-items: center;
 
 	 }
-gfdd
-	 .register-form-left {
+
+.register-form-left {
 		 width: 50%;
 		 min-height: 200px;
 		 text-align: center;
-	 }
+}
 
-	 .register-form-right {
+.register-form-right {
 		 width: 50%;
 		 min-height: 200px;
-	 }
+}
+
+.login{
+	text-align: center;
+}
+
+.form-group{
+	  text-align: left;
+	  margin-bottom: 10px;
+	  display: flex;
+		justify-content: center;
+}
+
+.form-group label{
+	  width: 150px;
+}
+
+.form-group input{
+	  padding: 5px;
+}
+
+.login input[type="submit"]{
+	padding: 5px 15px 5px 15px;
+	background-color: #232323;
+	color: #f7f6f6;
+	border: none;
+	transition: background-color 0.5s ease-in-out;
+}
+
+.login input[type="submit"]:hover{
+	background-color: #A80000;
+}
