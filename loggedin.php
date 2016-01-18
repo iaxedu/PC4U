@@ -26,7 +26,7 @@
 			if(isset($_POST['btnLogin'])){
 				$username = $_POST['txtUsername'];
 				$password = sha1($_POST['txtPassword']);
-				if(empty($username) || empty($password)){
+				if($username == "" || $password = ""){
 					echo "<h1>Ingelogd</h1>";
 					echo "<p>U ben succesvol ingelogd met de volgende gegevens:</p>";
 					echo "<p>Gebruikersnaam: $username<br>";
