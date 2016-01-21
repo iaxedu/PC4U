@@ -26,7 +26,7 @@
 
   <div class="content-register">
     <h1>Register</h1>
-    <div class="register-form">
+    <form class="register-form" method="post" action="reg_suc.php">
 
 
       <div class="register-form-left">
@@ -34,49 +34,49 @@
         <div class="form-group">
           <label for="voornaam"> Voornaam: </label>
           <br>
-          <input name="voornaam" id="voornaam" type="text" maxlength="16" required="yes">
+          <input name="voornaam" id="voornaam" type="text">
         </div>
 
         <div class="form-group">
-          <label for="voornaam"> Achternaam: </label>
+          <label for="achternaam"> Achternaam: </label>
           <br>
-          <input name="voornaam" id="voornaam" type="text" maxlength="16" required="yes">
+          <input name="achternaam" id="achternaam" type="text">
         </div>
 
         <div class="form-group">
-          <label for="voornaam"> Adres: </label>
+          <label for="adres"> Adres: </label>
           <br>
-          <input name="voornaam" id="voornaam" type="text" maxlength="16" required="yes">
+          <input name="adres" id="adres" type="text">
         </div>
 
         <div class="form-group">
-          <label for="voornaam"> Postcode: </label>
+          <label for="postcode"> Postcode: </label>
           <br>
-          <input name="voornaam" id="voornaam" type="text" maxlength="16" required="yes">
+          <input name="postcode" id="postcode" type="text">
         </div>
 
         <div class="form-group">
-          <label for="voornaam"> Voornaam: </label>
+          <label for="voornaam"> Land: </label>
           <br>
-          <input name="voornaam" id="voornaam" type="text" maxlength="16" required="yes">
+          <input name="voornaam" id="voornaam" type="text">
         </div>
 
         <div class="form-group">
-          <label for="voornaam"> Achternaam: </label>
+          <label for="provincie"> Provincie: </label>
           <br>
-          <input name="voornaam" id="voornaam" type="text" maxlength="16" required="yes">
+          <input name="provincie" id="provincie" type="text">
         </div>
 
         <div class="form-group">
-          <label for="voornaam"> Adres: </label>
+          <label for="email"> Email: </label>
           <br>
-          <input name="voornaam" id="voornaam" type="text" maxlength="16" required="yes">
+          <input name="email" id="email" type="email">
         </div>
 
         <div class="form-group">
-          <label for="voornaam"> Postcode: </label>
+          <label for="email"> Bevestig Email: </label>
           <br>
-          <input name="voornaam" id="voornaam" type="text" maxlength="16" required="yes">
+          <input name="email" id="email" type="email">
         </div>
 
       </div>
@@ -84,55 +84,67 @@
       <div class="register-form-right">
 
         <div class="form-group">
-          <label for="voornaam"> Voornaam: </label>
+          <label for="gebruikersnaam"> Gebruikersnaam: </label>
           <br>
-          <input name="voornaam" id="voornaam" type="text" maxlength="16" required="yes">
+          <input name="gebruikersnaam" id="gebruikersnaam" type="text">
         </div>
 
         <div class="form-group">
-          <label for="voornaam"> Achternaam: </label>
+          <label for="wachtwoord"> Wachtwoord: </label>
           <br>
-          <input name="voornaam" id="voornaam" type="text" maxlength="16" required="yes">
+          <input name="wachtwoord" id="wachtwoord" type="text">
         </div>
 
         <div class="form-group">
-          <label for="voornaam"> Adres: </label>
+          <label for="bev_wachtwoord"> Bevestig Wachtwoord: </label>
           <br>
-          <input name="voornaam" id="voornaam" type="text" maxlength="16" required="yes">
+          <input name="bev_wachtwoord" id="bev_wachtwoord" type="text">
         </div>
 
         <div class="form-group">
-          <label for="voornaam"> Postcode: </label>
+          <label for="geslacht"> Geslacht: </label>
           <br>
-          <input name="voornaam" id="voornaam" type="text" maxlength="16" required="yes">
+          <div class="radio">
+            <input type="radio" name="geslacht" value="man"> Man
+            <input type="radio" name="geslacht" value="vrouw"> Vrouw
+          </div>
         </div>
 
         <div class="form-group">
-          <label for="voornaam"> Voornaam: </label>
+          <label for="nieuwsbrief"> Nieuwsbrief: </label>
           <br>
-          <input name="voornaam" id="voornaam" type="text" maxlength="16" required="yes">
+          <div class="radio">
+            <input name="terms" id="terms" type="radio" value="ja"> Ja
+            <input name="terms" id="terms" type="radio" value="nee"> Nee
+          </div>
+
         </div>
 
         <div class="form-group">
-          <label for="voornaam"> Achternaam: </label>
+          <label for="terms"> Accept Terms and conditions </label>
           <br>
-          <input name="voornaam" id="voornaam" type="text" maxlength="16" required="yes">
+          <div class="radio">
+            <input name="terms" id="terms" type="radio" value="ja"> Ja
+            <input name="terms" id="terms" type="radio" value="nee"> Nee
+          </div>
+
         </div>
 
         <div class="form-group">
-          <label for="voornaam"> Adres: </label>
+          <label for=""> Vind u de site mooi? </label>
           <br>
-          <input name="voornaam" id="voornaam" type="text" maxlength="16" required="yes">
-        </div>
+          <div class="radio">
+            <input name="mooi" id="mooi" type="radio" value="ja"> Ja
+            <input name="mooi" id="mooi" type="radio" value="nee"> Nee
+          </div>
 
-        <div class="form-group">
-          <label for="voornaam"> Postcode: </label>
-          <br>
-          <input name="voornaam" id="voornaam" type="text" maxlength="16" required="yes">
         </div>
 
       </div>
-    </div>
+
+      <input class="btn_reg" type="submit" name="btn_register" value="Regristreer Nu">
+
+    </form>
 
   </div>
 
