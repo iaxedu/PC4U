@@ -25,7 +25,7 @@
 		<h1>Login</h1>
 		<?php
 			if(isset($_GET['error']) == 1){
-			echo "<p> Vul alle velden in!</p>";
+			echo "<p class='error'> Vul alle velden in!</p>";
 		}
 		?>
 		<form class="login" action="loggedin.php" method="POST">
