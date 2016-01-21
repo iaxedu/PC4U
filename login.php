@@ -23,7 +23,8 @@
 	</div>
 	<div class="content">
 		<h1>Login</h1>
-		<?php if($_GET['error'] == 1){
+		<?php
+			if(isset($_GET['error']) == 1){
 			echo "<p> Vul alle velden in!</p>";
 		}
 		?>
@@ -37,7 +38,7 @@
         <input type="password" name="txtPassword">
       </div>
       <input type="submit" name="btnLogin" value="Log in">
-			<a href="register.html">Registreer</a>
+			<a href="register.php">Registreer</a>
 		</form>
 	</div>
 	<div class="openingstijden">
