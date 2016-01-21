@@ -142,7 +142,7 @@
 
       </div>
 
-      <input class="btn_reg" type="submit" name="btn_reg" value="Regristreer Nu">
+      <input class="btn_reg" type="submit" name="btn_reg" value="Registreer Nu">
 
     </form>
 
