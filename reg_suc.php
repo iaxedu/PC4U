@@ -34,8 +34,8 @@
 				$postcode = $_POST['txtPostcode'];
 				$wachtwoord = sha1($_POST['txtWachtwoord']);
 				if($gebruikersnaam != "" || $wachtwoord != ""){
-					echo "<h1>Succesvol Geregristreerd</h1>";
-					echo "<p>U ben succesvol geregristreerd met de volgende gegevens:</p>";
+					echo "<h1>Succesvol Geregistreerd</h1>";
+					echo "<p>U ben succesvol geregistreerd met de volgende gegevens:</p>";
 					echo "<p>Gebruikersnaam: $gebruikersnaam<br>";
 					echo "Email: $email<br>";
 					echo "Voornaam: $voornaam<br>";
