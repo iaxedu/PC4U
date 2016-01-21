@@ -32,45 +32,45 @@
       <div class="register-form-left">
 
         <div class="form-group">
-          <label for="voornaam"> Voornaam: </label>
+          <label for="txtVoornaam"> Voornaam: </label>
           <br>
-          <input name="voornaam" id="voornaam" type="text">
+          <input name="txtVoornaam" id="voornaam" type="text">
         </div>
 
         <div class="form-group">
-          <label for="achternaam"> Achternaam: </label>
+          <label for="txtAchternaam"> Achternaam: </label>
           <br>
-          <input name="achternaam" id="achternaam" type="text">
+          <input name="txtAchternaam" id="achternaam" type="text">
         </div>
 
         <div class="form-group">
-          <label for="adres"> Adres: </label>
+          <label for="txtAdres"> Adres: </label>
           <br>
-          <input name="adres" id="adres" type="text">
+          <input name="txtAdres" id="adres" type="text">
         </div>
 
         <div class="form-group">
-          <label for="postcode"> Postcode: </label>
+          <label for="txtPostcode"> Postcode: </label>
           <br>
-          <input name="postcode" id="postcode" type="text">
+          <input name="txtPostcode" id="postcode" type="text">
         </div>
 
         <div class="form-group">
-          <label for="voornaam"> Land: </label>
+          <label for="txtStad"> Stad: </label>
           <br>
-          <input name="voornaam" id="voornaam" type="text">
+          <input name="txtStad" id="stad" type="text">
         </div>
 
         <div class="form-group">
-          <label for="provincie"> Provincie: </label>
+          <label for="txtProvincie"> Provincie: </label>
           <br>
-          <input name="provincie" id="provincie" type="text">
+          <input name="txtProvincie" id="provincie" type="text">
         </div>
 
         <div class="form-group">
-          <label for="email"> Email: </label>
+          <label for="txtEmail"> Email: </label>
           <br>
-          <input name="email" id="email" type="email">
+          <input name="txtEmail" id="email" type="email">
         </div>
 
         <div class="form-group">
@@ -84,21 +84,21 @@
       <div class="register-form-right">
 
         <div class="form-group">
-          <label for="gebruikersnaam"> Gebruikersnaam: </label>
+          <label for="txtGebruikersnaam"> Gebruikersnaam: </label>
           <br>
-          <input name="gebruikersnaam" id="gebruikersnaam" type="text">
+          <input name="txtGebruikersnaam" id="gebruikersnaam" type="text">
         </div>
 
         <div class="form-group">
-          <label for="wachtwoord"> Wachtwoord: </label>
+          <label for="txtWachtwoord"> Wachtwoord: </label>
           <br>
-          <input name="wachtwoord" id="wachtwoord" type="text">
+          <input name="txtWachtwoord" id="wachtwoord" type="password">
         </div>
 
         <div class="form-group">
           <label for="bev_wachtwoord"> Bevestig Wachtwoord: </label>
           <br>
-          <input name="bev_wachtwoord" id="bev_wachtwoord" type="text">
+          <input name="bev_wachtwoord" id="bev_wachtwoord" type="password">
         </div>
 
         <div class="form-group">
@@ -114,8 +114,8 @@
           <label for="nieuwsbrief"> Nieuwsbrief: </label>
           <br>
           <div class="radio">
-            <input name="terms" id="terms" type="radio" value="ja"> Ja
-            <input name="terms" id="terms" type="radio" value="nee"> Nee
+            <input name="news" id="news" type="radio" value="ja"> Ja
+            <input name="news" id="news" type="radio" value="nee"> Nee
           </div>
 
         </div>
@@ -142,7 +142,7 @@
 
       </div>
 
-      <input class="btn_reg" type="submit" name="btn_register" value="Regristreer Nu">
+      <input class="btn_reg" type="submit" name="btn_reg" value="Regristreer Nu">
 
     </form>
 

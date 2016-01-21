@@ -24,13 +24,27 @@
 	<div class="content">
 		<?php
 			if(isset($_POST['btn_reg'])){
-				$username = $_POST['txtUsername'];
-				$password = sha1($_POST['txtPassword']);
-				if($username != "" || $password != ""){
-					echo "<h1>Ingelogd</h1>";
-					echo "<p>U ben succesvol ingelogd met de volgende gegevens:</p>";
-					echo "<p>Gebruikersnaam: $username<br>";
-					echo "Wachtwoord: $password</p>";
+				$gebruikersnaam = $_POST['txtGebruikersnaam'];
+				$email = $_POST['txtEmail'];
+				$voornaam = $_POST['txtVoornaam'];
+				$achternaam = $_POST['txtAchternaam'];
+				$stad = $_POST['txtStad'];
+				$provincie = $_POST['txtProvincie'];
+				$adres = $_POST['txtAdres'];
+				$postcode = $_POST['txtPostcode'];
+				$wachtwoord = sha1($_POST['txtWachtwoord']);
+				if($gebruikersnaam != "" || $wachtwoord != ""){
+					echo "<h1>Succesvol Geregristreerd</h1>";
+					echo "<p>U ben succesvol geregristreerd met de volgende gegevens:</p>";
+					echo "<p>Gebruikersnaam: $gebruikersnaam<br>";
+					echo "Email: $email<br>";
+					echo "Voornaam: $voornaam<br>";
+					echo "Achternaam: $achternaam<br>";
+					echo "Stad: $stad<br>";
+					echo "Provincie: $provincie<br>";
+					echo "Adres: $adres<br>";
+					echo "Postcode: $postcode<br>";
+					echo "Wachtwoord: $wachtwoord</p>";
 				}
 				else{
 					header("Location: register.php?error=1");
