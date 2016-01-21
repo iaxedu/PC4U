@@ -37,6 +37,7 @@
         <input type="password" name="txtPassword">
       </div>
       <input type="submit" name="btnLogin" value="Log in">
+			<a href="register.html">Registreer</a>
 		</form>
 	</div>
 	<div class="openingstijden">
